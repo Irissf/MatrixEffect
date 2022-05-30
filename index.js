@@ -50,4 +50,4 @@ function matrix(){
 
 }
 // renderizar la animacion a 20 FPS.
-setInterval(matrix, 33);
+setInterval(matrix, 80);
