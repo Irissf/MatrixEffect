@@ -17,6 +17,7 @@ const columnas = Math.floor(width/ 20)+1;
 const yPos = Array(columnas).fill(0); //Inicialmente, el final (coordenada y) de cada columna está en 0.
 console.log(context)
 
+
 /**
  * En cada cuadro, se representara un rectángulo soemitransparente con las letras
  * para que se vean las de atrás más claras
@@ -28,6 +29,7 @@ function matrix(){
     context.fillStyle = '#0001';
     context.fillRect(0,0,width,height);
 
+   
     //establecemos color y tipo de letras
     context.fillStyle = '#ef476f';
     context.font = '15pt monospace';
